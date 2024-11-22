@@ -1,10 +1,10 @@
-name: AWS Terraform integration using github actions
- 
+name: AWS Terraform integration using github actions 
+
 on:
   push:
     branches:
     - main
- 
+
 jobs:
   terrafromconfigre:
     runs-on: ubuntu-latest
@@ -34,3 +34,4 @@ jobs:
           terraform validate 
           terraform plan 
           terraform apply --auto-approve 
+          
