@@ -30,6 +30,6 @@ jobs:
           sudo apt update && sudo apt install terraform
       - name: terrform commands 
         run: |
-         
+          terraform init
           terraform destroy
           
