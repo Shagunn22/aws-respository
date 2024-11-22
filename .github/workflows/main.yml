@@ -30,9 +30,6 @@ jobs:
           sudo apt update && sudo apt install terraform
       - name: terrform commands 
         run: |
-          terraform init
-          terraform validate 
-          terraform plan 
-          terraform apply --auto-approve 
+         
           terraform destroy
           
