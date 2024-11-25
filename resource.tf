@@ -27,7 +27,7 @@ resource "aws_s3_bucket_versioning" "versioning_example" {
 
 
 resource "aws_dynamodb_table" "locks" {
-  name = "Shubham-07July-dblocks"
+  name = "shagun-25nov"
   billing_mode = "PAY_PER_REQUEST"
   hash_key = "LockID"
 
