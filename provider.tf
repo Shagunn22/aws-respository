@@ -4,7 +4,7 @@ terraform {
  key = "globalstate/s3/terraform.tfstate"
  region = "eu-west-1"
  # Replace this with your DynamoDB table name!
- dynamodb_table = "shagun-25nov-dblocks"
+ dynamodb_table = "shagun-25nov"
  encrypt = true
  }
 }
