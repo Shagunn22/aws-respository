@@ -1,4 +1,4 @@
-terraform {
+/*terraform {
  backend "s3" {
  bucket = "shagun123"
  key = "globalstate/s3/terraform.tfstate"
@@ -8,8 +8,7 @@ terraform {
  encrypt = true
  }
 }
-
-
+*/
 provider "aws" {
   region = "eu-west-1"
 }
